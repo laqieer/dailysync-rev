@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     #  比赛或操课结束
-    - cron: "45 2,11 * * *"
+    - cron: "37 2,11 * * *"
   push:
     branches:
       - main
